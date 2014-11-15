@@ -36759,7 +36759,7 @@ cr.getProjectModel = function() { return [
 				[
 				],
 				[
-					"Welcome to the game O' derp use the arrow keys to move and X to shoot the phazr",
+					"Welcome to the game O' derp use the arrow keys or WASD to move and SPACE to shoot the phazer",
 					0,
 					"12pt Arial",
 					"rgb(255,255,255)",
@@ -44234,21 +44234,6 @@ cr.getProjectModel = function() { return [
 				]
 			]
 ,			[
-				[165, 5378, 0, 250, 250, 0, 0, 1, 0.5, 0.5, 0, 0, []],
-				50,
-				432,
-				[
-				],
-				[
-				],
-				[
-					0,
-					"Default",
-					0,
-					1
-				]
-			]
-,			[
 				[11, 5284, 0, 72, 24, 0, 0, 1, 0, 0, 0, 0, []],
 				51,
 				433,
@@ -44667,7 +44652,7 @@ cr.getProjectModel = function() { return [
 				,[
 				[
 					9,
-					88
+					32
 				]
 				]
 			]
@@ -44830,7 +44815,7 @@ cr.getProjectModel = function() { return [
 				,[
 				[
 					9,
-					88
+					32
 				]
 				]
 			]
@@ -47944,6 +47929,261 @@ cr.getProjectModel = function() { return [
 						2,
 						"IDK Whatever"
 					]
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			null,
+			3109421176723504,
+			[
+			[
+				5,
+				cr.plugins_.Keyboard.prototype.cnds.OnKey,
+				null,
+				1,
+				false,
+				false,
+				false,
+				926705454487379,
+				false
+				,[
+				[
+					9,
+					87
+				]
+				]
+			]
+			],
+			[
+			[
+				3,
+				cr.behaviors.Platform.prototype.acts.SimulateControl,
+				"Platform",
+				7276403322968211,
+				false
+				,[
+				[
+					3,
+					2
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			null,
+			9434672996080089,
+			[
+			[
+				5,
+				cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
+				null,
+				0,
+				false,
+				false,
+				false,
+				1223593473335196,
+				false
+				,[
+				[
+					9,
+					68
+				]
+				]
+			]
+			],
+			[
+			[
+				3,
+				cr.behaviors.Platform.prototype.acts.SimulateControl,
+				"Platform",
+				1134522172045512,
+				false
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				3,
+				cr.plugins_.Sprite.prototype.acts.SetAnim,
+				null,
+				1957967802837641,
+				false
+				,[
+				[
+					1,
+					[
+						2,
+						"Animation2"
+					]
+				]
+,				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				3,
+				cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
+				null,
+				6578341417052966,
+				false
+				,[
+				[
+					10,
+					2
+				]
+,				[
+					7,
+					[
+						0,
+						0
+					]
+				]
+				]
+			]
+,			[
+				3,
+				cr.plugins_.Sprite.prototype.acts.SetMirrored,
+				null,
+				1308612541576034,
+				false
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				3,
+				cr.plugins_.Sprite.prototype.acts.SetFlipped,
+				null,
+				6136834415597172,
+				false
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+			]
+		]
+,		[
+			0,
+			null,
+			false,
+			null,
+			6295856917868265,
+			[
+			[
+				5,
+				cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
+				null,
+				0,
+				false,
+				false,
+				false,
+				6107223835888391,
+				false
+				,[
+				[
+					9,
+					65
+				]
+				]
+			]
+			],
+			[
+			[
+				3,
+				cr.behaviors.Platform.prototype.acts.SimulateControl,
+				"Platform",
+				1899368332086943,
+				false
+				,[
+				[
+					3,
+					0
+				]
+				]
+			]
+,			[
+				3,
+				cr.plugins_.Sprite.prototype.acts.SetAnim,
+				null,
+				3161152531133549,
+				false
+				,[
+				[
+					1,
+					[
+						2,
+						"Animation3"
+					]
+				]
+,				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				3,
+				cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
+				null,
+				5176192104528184,
+				false
+				,[
+				[
+					10,
+					2
+				]
+,				[
+					7,
+					[
+						0,
+						1
+					]
+				]
+				]
+			]
+,			[
+				3,
+				cr.plugins_.Sprite.prototype.acts.SetMirrored,
+				null,
+				7688028160109592,
+				false
+				,[
+				[
+					3,
+					1
+				]
+				]
+			]
+,			[
+				3,
+				cr.plugins_.Sprite.prototype.acts.SetFlipped,
+				null,
+				6826090595778632,
+				false
+				,[
+				[
+					3,
+					1
 				]
 				]
 			]
